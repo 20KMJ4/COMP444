@@ -199,25 +199,6 @@ void startSequence() {
   tone(buzzerPin, 98, 300);  //G
   delay(400);
 
-  /* Attempt at Windows XP startup sound - did not work well
-  tone(buzzerPin,1245,400); //Eb6
-  delay(100);
-  tone(buzzerPin,622,200);//Eb5
-  delay(100);
-  tone(buzzerPin,932,1000);//Bb
-  delay(100);
-  tone(buzzerPin,622,400);
-  delay(100);
-  tone(buzzerPin,831,400);//Ab
-  delay(100);
-  tone(buzzerPin,622,400);
-  delay(100);
-  tone(buzzerPin,1245,400);
-  delay(100);
-  tone(buzzerPin,932,1000);
-  delay(100);
-  */
-
   for (int i = 0; i <= 3; i++) {
 
     //tone(buzzerPin, tones[i], 200);
@@ -339,16 +320,7 @@ void loseSequence() {
   delay(600);
   tone(buzzerPin, 62, 1000);  //B
   delay(110);
-  /* extra trill but wasn't great
-    tone(buzzerPin, 58, 100);//Bb
-  delay(110);
-    tone(buzzerPin, 62, 100);//B
-  delay(110);
-    tone(buzzerPin, 58, 100);//Bb
-  delay(110);
-    tone(buzzerPin, 62, 100);//B
-  delay(110);
-*/
+
   do {
     pressedButton = buttonCheck();
   } while (pressedButton > 3);
