@@ -16,3 +16,5 @@ Notes:
 5B CC Read More Commands was not done since the example circuit already includes distance
 
 Additional code includes: COMP444_4C_DIYWhoAmI_ImprovedBuzzer and COMP444_5A_MoreDetailedSwitchChange, which include additional changes to improve the circuits.
+
+Photos of inner workings of gearbox, as one of the gears is defective and was causing weird behaviours for one of the gearboxes/wheel.
