@@ -9,3 +9,10 @@ Notes:
 3C Coding Challenge Add a Second Mechanism was not attempted, as it did not seem to have any programming or circuit changes from 3C.
 
 Two versions of 4A Coding challenge Count Button Presses: one that counts how many times a button is pressed, and one that changes the message displayed when the button is pressed.
+
+Assignment 3 covers 4C to 5C
+
+Notes:
+5B CC Read More Commands was not done since the example circuit already includes distance
+
+Additional code includes: COMP444_4C_DIYWhoAmI_ImprovedBuzzer and COMP444_5A_MoreDetailedSwitchChange, which include additional changes to improve the circuits.
