@@ -39,18 +39,18 @@ void loop() {
 
 // -----------------------------------------------------
 void spinMotorForward(int motorSpeed) {
-    digitalWrite(AIN1, HIGH);
-    digitalWrite(AIN2, LOW);
+  digitalWrite(AIN1, HIGH);
+  digitalWrite(AIN2, LOW);
   analogWrite(PWMA, abs(motorSpeed));
 }
 
 void spinMotorBackward(int motorSpeed) {
-    digitalWrite(AIN1, LOW);
-    digitalWrite(AIN2, HIGH);
+  digitalWrite(AIN1, LOW);
+  digitalWrite(AIN2, HIGH);
   analogWrite(PWMA, abs(motorSpeed));
 }
 void stopMotor(int motorSpeed) {
-    digitalWrite(AIN1, LOW);
-    digitalWrite(AIN2, LOW);
+  digitalWrite(AIN1, LOW);
+  digitalWrite(AIN2, LOW);
   analogWrite(PWMA, abs(motorSpeed));
 }
