@@ -18,3 +18,5 @@ Notes:
 Additional code includes: COMP444_4C_DIYWhoAmI_ImprovedBuzzer and COMP444_5A_MoreDetailedSwitchChange, which include additional changes to improve the circuits.
 
 Photos of inner workings of gearbox, as one of the gears is defective and was causing weird behaviours for one of the gearboxes/wheel.
+
+The Final Project includes 2 versions of comments to help structure code. 3 Versions of MVP, stage 2 which is the final submission, and test scroll example with the message changed. 
